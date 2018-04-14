@@ -22,6 +22,6 @@
   15. Explicar por qué funciona
 
 ###   Análisis de resultados:
-  2. EL archivo hello2.i posee el código escrito en hello2.c y todo lo que se encuentra en el header stdio.h. Esto se debe a que,
-  al solo realizarse el preprocesamiento, se copian todas las definiciones de las funciones de la biblioteca standard,
-  así como también distintos typedef y estructuras (struct) disponibles para el usuario.
+  2. EL archivo hello2.i posee el código escrito en hello2.c con la diferencia de que posee copiado todo lo que se encuentra en el header stdio.h y se reemplazó el comentario /*medio*/ por un espacio, debido a que solo se realizó la etapa de preprocesamiento.
+  Dentro de stdio.h se encuentran todas las definiciones de las funciones de la biblioteca standard, así como también distintos typedef y estructuras (struct) disponibles para el uso del usuario. Este contenido se copia luego de la etapa de preprocesamiento ya que se indica por medio de la directiva #include.
+  4. La primera línea indica, semánticamente, la declaración de la función printf, la cual recibe como parámetros por lo menos un puntero a char y tres puntos (...), que indican que puede recibir más parámetros además del nombrado recién; el valor de retorno es de tipo int. El primer parámetro posee la palabra const antes de char * , lo cual quiere decir que el valor del parámetro es constante e indica al compilador que evite que se modifique dentro de la definición de la función.
