@@ -21,7 +21,7 @@
   14. Escribir hello7.c, una nueva variante
   15. Explicar por qué funciona
 
-###   Análisis de resultdos:
+###   Análisis de resultados:
   2. EL archivo hello2.i posee el código escrito en hello2.c y todo lo que se encuentra en el header stdio.h. Esto se debe a que,
   al solo realizarse el preprocesamiento, se copian todas las definiciones de las funciones de la biblioteca standard,
   así como también distintos typedef y estructuras (struct) disponibles para el usuario.
