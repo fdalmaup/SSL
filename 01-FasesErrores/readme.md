@@ -6,7 +6,7 @@
             Identificar las fases de traducción y errores.
 ###  Secuencia de Pasos:
   1. Escribir hello2.c, que es una variante de hello.c
-  2. Preprocesar   hello2.c,   no   compilar,   y   generar hello2.i. Analizar su contenido.
+  2. Preprocesar hello2.c, no compilar, y generar hello2.i. Analizar su contenido.
   3. Escribir hello3.c, una nueva variante
   4. Investigar la semántica de la primera línea.
   5. Preprocesar hello3.c, no compilar, y generar hello3.i. Buscar diferenciasentre hello3.c y hello3.i.
@@ -19,4 +19,9 @@
   12. Ejecutar y analizar el resultado.
   13. Corregir en hello6.c y empezar de nuevo.
   14. Escribir hello7.c, una nueva variante
-  15. Explicar porqué funciona
+  15. Explicar por qué funciona
+
+###   Análisis de resultdos:
+  2. EL archivo hello2.i posee el código escrito en hello2.c y todo lo que se encuentra en el header stdio.h. Esto se debe a que,
+  al solo realizarse el preprocesamiento, se copian todas las definiciones de las funciones de la biblioteca standard,
+  así como también distintos typedef y estructuras (struct) disponibles para el usuario.
