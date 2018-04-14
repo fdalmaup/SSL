@@ -2,4 +2,5 @@
 # Fases de la Traducción y Errores
 ### Legajo: 156.163-7
 ### Facundo Dalmau Pereyra
-Identificar las fases de traducción y errores.
+### Objetivos:
+            Identificar las fases de traducción y errores.
