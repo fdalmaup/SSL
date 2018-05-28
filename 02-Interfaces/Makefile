@@ -7,6 +7,8 @@ OBJ      = Conversion.o TablasDeConversion.o ConversionTest.o
 
 .PHONY: all clean run test
 
+all: $(BIN)
+
 TablasDeConversion: Conversion.o
 
 ConversionTest: ConversionTest.o
