@@ -9,6 +9,12 @@ OBJ      = Conversion.o TablasDeConversion.o ConversionTest.o
 
 all: $(BIN)
 
+run: TablasDeConversion 
+	./TablasDeConversion
+
+test: ConversionTest
+	./ConversionTest
+
 TablasDeConversion: Conversion.o
 
 ConversionTest: ConversionTest.o
